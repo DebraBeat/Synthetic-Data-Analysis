@@ -1,0 +1,21 @@
+Resampling,Model,Sampling Strategy,AUROC mean,AUROC std,PRROC mean,PRCOS std
+"RandomOverSampler(random_state=42, sampling_strategy=0.1)","LogisticRegression(n_jobs=-1, random_state=42)",0.1,0.694099699205985,0.00846112595335221,0.23290967613635444,0.006683672521098072
+"RandomOverSampler(random_state=42, sampling_strategy=0.1)","RandomForestClassifier(n_jobs=-1, random_state=42)",0.1,0.8381103816456715,0.004796456054440396,0.3491887876389191,0.006683613701894667
+"RandomOverSampler(random_state=42, sampling_strategy=0.25)","LogisticRegression(n_jobs=-1, random_state=42)",0.25,0.6971028998122217,0.0077045294310424724,0.22569839234037445,0.006220774390416132
+"RandomOverSampler(random_state=42, sampling_strategy=0.25)","RandomForestClassifier(n_jobs=-1, random_state=42)",0.25,0.8385657422452348,0.004308103266976336,0.3396659124529001,0.006863283104423828
+"RandomOverSampler(random_state=42, sampling_strategy=0.5)","LogisticRegression(n_jobs=-1, random_state=42)",0.5,0.7658388292215326,0.0045621444475400135,0.2773037527127481,0.009393665285111394
+"RandomOverSampler(random_state=42, sampling_strategy=0.5)","RandomForestClassifier(n_jobs=-1, random_state=42)",0.5,0.8363513283029267,0.0038683832801605787,0.3332101531386266,0.005726010382530402
+"RandomOverSampler(random_state=42, sampling_strategy=0.75)","LogisticRegression(n_jobs=-1, random_state=42)",0.75,0.7827595847751435,0.004144309649976268,0.297415316775625,0.010071159661612747
+"RandomOverSampler(random_state=42, sampling_strategy=0.75)","RandomForestClassifier(n_jobs=-1, random_state=42)",0.75,0.8362103091409658,0.0038248394840847875,0.32976789528553696,0.005424722536269914
+"RandomOverSampler(random_state=42, sampling_strategy=1)","LogisticRegression(n_jobs=-1, random_state=42)",1.0,0.7893051539973437,0.004017175633801625,0.305749015135052,0.010198246945860759
+"RandomOverSampler(random_state=42, sampling_strategy=1)","RandomForestClassifier(n_jobs=-1, random_state=42)",1.0,0.8346839042489208,0.0049372294440758495,0.3266114895724573,0.00527604628940378
+"SMOTE(random_state=42, sampling_strategy=0.1)","LogisticRegression(n_jobs=-1, random_state=42)",0.1,0.6940645100771599,0.008452385472593691,0.2331361805953794,0.006533634630305037
+"SMOTE(random_state=42, sampling_strategy=0.1)","RandomForestClassifier(n_jobs=-1, random_state=42)",0.1,0.8389500861800953,0.003698516852197079,0.35177320520668454,0.006501081650417848
+"SMOTE(random_state=42, sampling_strategy=0.25)","LogisticRegression(n_jobs=-1, random_state=42)",0.25,0.6961757123981019,0.00800942702989686,0.22811926039557306,0.005955026367700125
+"SMOTE(random_state=42, sampling_strategy=0.25)","RandomForestClassifier(n_jobs=-1, random_state=42)",0.25,0.8379459989053764,0.003608714041904621,0.3366185440390124,0.0052921796604209455
+"SMOTE(random_state=42, sampling_strategy=0.5)","LogisticRegression(n_jobs=-1, random_state=42)",0.5,0.7433276376121989,0.006247504899892078,0.2562896607505498,0.008889877983043682
+"SMOTE(random_state=42, sampling_strategy=0.5)","RandomForestClassifier(n_jobs=-1, random_state=42)",0.5,0.8326027700194137,0.003875851882840865,0.32001068061440113,0.004952694743296297
+"SMOTE(random_state=42, sampling_strategy=0.75)","LogisticRegression(n_jobs=-1, random_state=42)",0.75,0.7703544375136263,0.0043353086684249035,0.28159101241394724,0.00957356810775674
+"SMOTE(random_state=42, sampling_strategy=0.75)","RandomForestClassifier(n_jobs=-1, random_state=42)",0.75,0.8276541171797623,0.004114656541987207,0.30725647220663455,0.006159080248542558
+"SMOTE(random_state=42, sampling_strategy=1)","LogisticRegression(n_jobs=-1, random_state=42)",1.0,0.7804497218861347,0.003851444590108006,0.29317928891155104,0.009494522109256828
+"SMOTE(random_state=42, sampling_strategy=1)","RandomForestClassifier(n_jobs=-1, random_state=42)",1.0,0.8240200334597272,0.0037414445540482778,0.29788124809863037,0.007071109858335192
